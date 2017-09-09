@@ -1,0 +1,926 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+
+.header {
+        margin-bottom: 2em;
+           /* text-align: right;*/
+        }
+        .f-nav {
+           /* border-top: 1px solid #808080;*/
+            margin: 0 -1em;
+        }
+     .f-nav li {
+      display: inline-block;
+     /* margin-bottom: 200px;*/
+     position: relative;
+     bottom: 20px;
+     }
+
+
+        .f-nav li a {
+            /*display: inline-block;*/
+            padding: 0.8em 1em;
+           /* border-bottom: 1px solid #808080;*/
+            font-size: 20px;
+            /*color: #000000;*/
+            
+
+        }
+
+        .pattern {
+          text-decoration: none;
+        }
+
+
+
+
+
+     .target {
+      color: #8b8bcd;
+      font-size: 24px;
+      line-height: 1.55em;
+    text-align: center;
+    font-weight: 50;
+    margin: 0;
+     }   
+
+
+     .title {
+    font-size: 32px;
+   }
+
+   .subtitle {
+    font-size: 18px;
+    color: #a9a9a9;
+   }
+
+   .subtitle span {
+    color: #a9a9a9;
+   }
+
+     h1.target {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+h2.target a {
+  text-decoration: underline;
+  /*font-size: 19px;*/
+}
+
+ .change {
+  font-size: 1.35em;
+  line-height: 1.6666em;
+  padding: 5px;
+}
+
+ p {
+  line-height: 1.6666em;
+  padding: 5px;
+  
+ }
+
+
+body {
+  background: #F8F8FF;
+  color: #555;
+  font-family: 'Roboto', helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+a {
+    color:  #8b8bcd;
+    text-decoration: none;
+}
+
+a:hover {
+  color:  #7B68EE;
+}
+
+img {
+
+   box-shadow: 0 18px 35px rgba(50,50,93,.3), 0 8px 15px rgba(0,0,0,.2);
+}
+
+
+a.button {
+    background: #a793c1;
+    padding: 0.7em 1.75em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.3em;
+
+}
+a.button:hover {
+  /*background:#000;*/
+   background: #A181CA;
+}
+
+.imageWrap {
+    text-align: center;
+}
+
+.lorem {
+    width: 400px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.real {
+  text-align: center;
+}
+
+.size {
+  position: relative;
+  width: 100%;
+}
+
+
+ /*button[type='submit'] {
+    color: white;
+    background: #000000;
+    border: 0;
+    width: 75pxS;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    /*margin-right: 15px;*/
+   /* margin: 5px;
+    padding: 3px;*/
+/*}*/
+
+
+/*input[type="button"] {
+  color: white;
+    background: #000000;
+    border: 0;
+    width: 75px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    margin: 5px;
+    padding: 3px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+    img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+    }
+
+
+
+
+        
+        @media screen and (min-width: 40em) {
+            .f-nav-link {
+                display: none;
+            }
+            .f-nav {
+                /*position: absolute;*/
+                top: 0;
+                left: 0;
+                border: 0;
+                margin: 0;
+            }
+            .f-nav li {
+                display: inline-block;
+                margin-right: 0.25em;
+            }
+            .f-nav li a {
+                border: 0;
+            }
+        }
+
+        @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+       .body {
+        width: 100%;
+       }
+       .div {
+        width: 100%;
+       }
+       .button {
+        width: 100%;
+       }
+       .h1 {
+        width: 100%;
+       }
+       .p {
+        width: 100%;
+       }
+       .input {
+        width: 100%;
+       }
+       .html {
+        width: 100%;
+       }
+       .img {
+        width: 100%;
+       }
+       .header {
+        width: 100%;
+       }
+
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+       width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+        width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+               .body {
+                width: 100%;
+               }
+               .div {
+                width: 100%;
+               }
+               .button {
+                width: 100%
+               }
+               .h1 {
+                width: 100%;
+               }
+               .p {
+                width: 100%;
+               }
+               .input {
+               width: 100%;
+               }
+               .html {
+                width: 100%;
+               }
+               .img {
+        width: 100%;
+       }
+     }
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+        width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+      }
+      .html {
+      width: 100%;
+      }
+      .img {
+        width: 100%;
+       }
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+       width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+       width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+      }
+      .img {
+        width: 100%;
+       }
+}
+
+
+
+
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {        
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+    }
+    .html {
+     width: 100%;
+    }
+    .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+      }
+      .img {
+        width: 100%;
+       }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+      }
+      .img {
+        width: 100%;
+       }
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;            
+    }
+    .img {
+        width: 100%;
+       }
+  }
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+       width: 100%;
+      }
+      .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;        
+    }
+    .img {
+        width: 100%;
+       }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+      width: 100%;          
+    }
+    .img {
+        width: 100%;
+       }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+     .body {
+      width: 100%;
+     }
+     .div {
+      width: 100%;
+     }
+     .button {
+      width: 100%;
+     }
+     .h1 {
+      width: 100%;
+     }
+     .p {
+      width: 100%;
+     }
+     .input {
+      width: 100%;
+     }
+     .html {
+     width: 100%;
+     }
+     .img {
+        width: 100%;
+       }
+}
+
+@media only screen 
+  and (min-width: 768px) {
+     img {
+        width: 733px;
+        height:450px;
+       }
+  }
