@@ -12,6 +12,8 @@
 
   .header {
           margin-bottom: 2em;
+          margin-left: 30px;
+
              /* text-align: right;*/
           }
           .f-nav {
@@ -23,6 +25,7 @@
        /* margin-bottom: 200px;*/
        position: relative;
        bottom: 20px;
+
        }
 
 
@@ -84,6 +87,7 @@
       margin: 0;
       padding: 0;
       margin-top: 10px;
+      margin-bottom: 30px;
   }
 
   h2.target a {
@@ -109,7 +113,7 @@
 
 
   body {
-    background: #F8F8FF;
+    background: #FFFFFF;
     color: #555;
     font-family: 'Roboto', helvetica, sans-serif;
     padding: 0;
@@ -119,6 +123,12 @@
     background-size: cover;
   }
 
+  .unique {
+    font-weight: 300px;
+    font-size: 20px;
+    color: #8b8bcd;
+  }
+
 
   a {
       color:  #8b8bcd;
@@ -126,6 +136,11 @@
   }
 
   .cool {
+    color: #8b8bcd;
+  }
+
+  .dool {
+    text-align: center;
     color: #8b8bcd;
   }
 
@@ -214,6 +229,7 @@ ul {
       /*width: 400px;*/
       margin: 0 auto;
       line-height: 24px;
+      text-align: center;
   }
 
   .img-container {
