@@ -56,6 +56,15 @@
 
 
 
+      .word {
+        color: #F8F8FF;
+        font-size: 40px;
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
 
        .target {
         color: #8b8bcd;
@@ -141,11 +150,15 @@
 
   .dool {
     text-align: center;
+    font-variant: small-caps;
+    margin-top: 50px;
     color: #8b8bcd;
   }
 
   .neat {
     color: #8b8bcd;
+    font-variant: small-caps;
+    margin-top: 50px;
     text-align: center;
   }
 
@@ -243,11 +256,12 @@ ul {
 
   .real img {
      border-radius: 0.5em;
-      box-shadow: 0 18px 35px rgba(50,50,93,.3), 0 8px 15px rgba(0,0,0,.2);
+      box-shadow: 0 10px 20px rgba(50,50,93,.3), 0 4px 10px rgba(0,0,0,.2);
   }
 
   .size {
     position: relative;
+    margin-top: 50px;
     width: 100%;
 
   }
@@ -257,7 +271,7 @@ ul {
 
 
       img:hover {
-      opacity: 0.5;
+      opacity: 0.8;
       filter: alpha(opacity=50); 
       }
 
@@ -380,6 +394,13 @@ ul {
          }
             .real {
           width: 100%;
+         }
+         .change {
+          margin-left: 0;
+          margin-right: 0;
+          height: 100%;
+          padding-left: 10;
+    padding-right: 10;
          }
 
 
@@ -963,6 +984,7 @@ ul {
             .real {
           width: 100%;
          }
+
   }
 
   /* Landscape */
